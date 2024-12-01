@@ -1,20 +1,33 @@
 .main {
-    height:auto;
-    min-height:100vh;
+    height: auto;
+    min-height: 100vh;
 }
-.container{
+
+.container {
     max-width: 75vw;
     margin-left: auto;
     margin-right: auto;
 }
-p{
+
+p {
     margin-top: .5em;
+    font-family: "libre baskerville";
+    line-height: 1.75em;
 }
-hr{
+
+hr {
     border-bottom: 1px solid #ccc;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
-ul, li {
+
+ul,
+li {
     list-style: none;
+}
+
+h1 {
+    /* color: #ff5f03fc; */
+    font-size: x-large;
+    font-family: "josefin sans";
 }
