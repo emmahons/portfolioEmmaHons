@@ -1,19 +1,20 @@
 ---
 layout: default
 title: Cooking without words
-subtitle: ""
 tags:
   - Indesign
   - Illustrator
 imagegallery:
   showgallery: true
-  carouselgrid: grid
+  carouselgrid: carousel
   galleryImages:
+    - /img/kzw.jpeg
+    - /img/kzw2.jpeg
     - /img/kzw_blog.png
     - /img/kzw_blog2.png
 thumbnail: /img/kzw_blog.png
 date: 2024-09-19T13:38:30.130Z
-numbernavigation: 0
+
 layoutpage: layout1
 promoted: "0"
 included: true
