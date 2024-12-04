@@ -4,11 +4,11 @@ body {
     color: rgba(0,0,0,0.8);
     }
     .light-mode body {
-    background-color: #e2e3e5;
+    background-color: #efefee;
     color: #161717;
     }
-    .el-drawer {
-        background-color: rgba(255, 255, 255, 0.99);
+    .light-mode .el-drawer {
+        background-color: rgba(176, 234, 179, 0.99);
     }
     /* */
     .dark-mode body {
@@ -19,7 +19,7 @@ body {
         background-color: #161715;
     }
     .dark-mode .el-drawer {
-        background-color: rgba(30, 30, 30, 0.98);
+        background-color: rgba(61, 86, 60, 0.98);
       }
     /* */
     .gray-mode body {
@@ -38,7 +38,7 @@ body {
     }
     */
     .gray-mode .el-drawer {
-        background-color: rgba(91, 115, 101, 0.95);
+        background-color: rgba(99, 130, 112, 0.95);
         color: #ebebeb;
     }
     
