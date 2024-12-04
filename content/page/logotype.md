@@ -13,4 +13,4 @@ layoutpage: layout1
 included: true
 promoted: "0"
 ---
-T﻿his logotype was created for a friend, Chiara. After a thourough character study, the design was sketched out and later digitally converted. This logotype was for personal use.
+This logotype was created for a friend, Chiara. After a thourough character study, the design was sketched out and later digitally converted. This logotype was for personal use.

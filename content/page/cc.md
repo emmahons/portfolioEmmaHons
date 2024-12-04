@@ -28,6 +28,6 @@ included: true
 ---
 ::div{class="italic"}
 This is a catalogue designed for the exhibition Crawly Creatures that took place in the Rijksmuseum in Amsterdam. As a classical museum catalogue, it gives more information about the exposition and its artists. It uses images from the museum’s database. 
-:﻿:
+::
 
 Skills: Adobe Indesign, layout, composition
