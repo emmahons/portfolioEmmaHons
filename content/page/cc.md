@@ -5,7 +5,7 @@ tags:
   - Indesign
 imagegallery:
   showgallery: true
-  carouselgrid: carousel
+  carouselgrid: grid
   galleryImages:
     - /img/o1.jpeg
     - /img/o2.jpeg
@@ -22,8 +22,9 @@ imagegallery:
     - /img/o13.jpeg
 thumbnail: /img/o1.jpeg
 date: 2024-10-10T14:04:11.477Z
+numbernavigation: 50
 layoutpage: layout2
-promoted: "0"
+promoted: "2"
 included: true
 ---
 ::div{class="italic"}

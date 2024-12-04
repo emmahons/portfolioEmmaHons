@@ -6,7 +6,7 @@ tags:
   - Illustrator
 imagegallery:
   showgallery: true
-  carouselgrid: carousel
+  carouselgrid: grid
   galleryImages:
     - /img/kzw.jpeg
     - /img/kzw2.jpeg
@@ -14,9 +14,9 @@ imagegallery:
     - /img/kzw_blog2.png
 thumbnail: /img/kzw_blog.png
 date: 2024-09-19T13:38:30.130Z
-
-layoutpage: layout1
-promoted: "0"
+numbernavigation: 47
+layoutpage: layout2
+promoted: "1"
 included: true
 ---
 ::div{class="italic"}
