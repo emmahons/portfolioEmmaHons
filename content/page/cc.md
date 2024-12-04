@@ -3,6 +3,7 @@ layout: default
 title: Crawly Creatures
 tags:
   - Indesign
+  - bookbinding
 imagegallery:
   showgallery: true
   carouselgrid: grid

@@ -13,7 +13,7 @@
             <NuxtImg
               :src="item.thumbnail"
               alt="Post thumbnail"
-              class="rounded-md mb-4"
+              class="rounded-md mb-4" 
               @load="onImageLoad(index)"
               @error="onImageError(index)"
               :class="{ 'hidden': !imageLoaded[index] }"
