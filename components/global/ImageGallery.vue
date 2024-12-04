@@ -19,14 +19,8 @@
               <div v-if="imageLoading[index]" class="absolute inset-0 flex items-center justify-center bg-gray-200">
                 <p>Loading image...</p>
               </div>
-              <NuxtImg
-                :src="item"
-                alt="Gallery Image"
-                loading="lazy"
-                @load="imageLoaded(index)"
-                @click="openFullscreen(item)"
-                class="w-full h-auto max-h-full object-contain"
-              />
+              <NuxtImg :src="item" alt="Gallery Image" loading="lazy" @load="imageLoaded(index)"
+                @click="openFullscreen(item)" class="w-full h-auto max-h-full object-contain" />
             </div>
           </el-carousel-item>
         </el-carousel>
@@ -47,14 +41,9 @@
               <div v-if="imageLoading[index]" class="absolute inset-0 flex items-center justify-center bg-gray-200">
                 <p>Loading image...</p>
               </div>
-              <NuxtImg
-                :src="item"
-                alt="Gallery Image"
-                loading="lazy"
-                @click="openFullscreen(item)"
-                @load="imageLoaded(index)"
-                class="cursor-pointer w-full object-cover rounded-md"
-              />
+              <NuxtImg :src="item" alt="Gallery Image" loading="lazy" @click="openFullscreen(item)"
+                @load="imageLoaded(index)" class="cursor-pointer w-full object-cover" />
+              <!-- rounded-md uit laatste class gehaald -->
             </div>
           </div>
         </div>
@@ -64,7 +53,9 @@
           <NuxtImg :src="currentImage" alt="Fullscreen Image" class="fullscreen-image" />
           <button @click="closeFullscreen" class="close-button">
             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-              <path fill="currentColor" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z"></path>
+              <path fill="currentColor"
+                d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z">
+              </path>
             </svg>
           </button>
         </div>
