@@ -5,7 +5,7 @@
         <!-- Lazy loading applied to NuxtImg 
         <NuxtImg v-if="data.thumbnail" :src="data.thumbnail" class="w-screen opacity-80 bg-cover"
           :alt="`Thumbnail for ${data.title}`" format="webp" loading="lazy" @load="imageLoaded = true" />
-        -->
+        
 
         <div v-if="!imageLoaded" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-75">
           <div class="spinner"></div>
@@ -24,7 +24,7 @@
 
 
           </div>
-        </div>
+        </div>-->
       </div>
 
       <!-- Loading Drawer component -->
@@ -33,7 +33,7 @@
       </div>
 
       <!-- Main section -->
-      <div class="container mx-auto p-4 animate-fade animate-once animate-delay-[500ms] mt-12" v-if="imageLoaded">
+      <div class="container mx-auto p-4 animate-fade animate-once animate-delay-[500ms] mt-12"> <!--v-if="imageLoaded"-->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
           <!-- First column -->
           <div>
