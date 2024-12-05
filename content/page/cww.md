@@ -10,12 +10,12 @@ imagegallery:
   galleryImages:
     - /img/kzw.jpeg
     - /img/kzw2.jpeg
-    - /img/kzw_blog.png
+    - /img/kzw_blog.png 
     - /img/kzw_blog2.png
 thumbnail: /img/kzw_blog.png
 date: 2024-09-19T13:38:30.130Z
 numbernavigation: 47
-layoutpage: layout2
+layoutpage: layout3
 promoted: "1"
 included: true
 ---
