@@ -1,5 +1,5 @@
 <template>
-    <div class="layout1">
+  <div class="layout1">
     <ClientOnly>
       <div class="pr-5 z-100">
         <Drawer />
@@ -11,7 +11,7 @@
         <ContentRenderer :value="data" />
 
         <div v-if="data.imagegallery && data.imagegallery.showgallery == true" class="pt-10 pb-20">
-            <ImageGallery />
+          <ImageGallery />
         </div>
 
         <div class="text-xs leading-3 container">
@@ -25,25 +25,23 @@
         </div>
       </div>
       <ShareButtons />
-    
+
       <!-- SEO metadata -->
       <!-- Regular Meta Tags -->
       <Title>{{ data.title }}</Title>
       <Meta name="description" :content="data.description" />
       <Meta name="tags" :content="data.tags" />
-      <Meta name="keywords" :content="data.tags.join(', ')" /> <!-- Add keywords here -->
       <!-- Open Graph Meta Tags -->
       <Meta property="og:title" :content="data.title" />
       <Meta property="og:description" :content="data.description" />
       <Meta property="og:image" :content="data.thumbnail" /> <!-- Add an image URL here -->
       <Meta property="og:url" :content="data.url" /> <!-- Add the current URL -->
-      <Meta property="og:type" content="article" /> 
-    
+      <Meta property="og:type" content="article" />
+
     </ClientOnly>
-    </div>
-  </template>
-  
-  <script setup>
-  defineProps(['data', 'formatDate']);
-  </script>
-  
+  </div>
+</template>
+
+<script setup>
+defineProps(['data', 'formatDate']);
+</script>

@@ -33,7 +33,8 @@
       </div>
 
       <!-- Main section -->
-      <div class="container mx-auto p-4 animate-fade animate-once animate-delay-[500ms] mt-12"> <!--v-if="imageLoaded"-->
+      <div class="container mx-auto p-4 animate-fade animate-once animate-delay-[500ms] mt-12">
+        <!--v-if="imageLoaded"-->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
           <!-- First column -->
           <div>
@@ -79,8 +80,6 @@
       <!-- SEO metadata -->
       <Title>{{ data.title }}</Title>
       <Meta name="description" :content="data.description" />
-      <Meta name="tags" :content="data.tags.join(', ')" />
-      <Meta name="keywords" :content="data.tags.join(', ')" />
       <Meta property="og:title" :content="data.title" />
       <Meta property="og:description" :content="data.description" />
       <Meta property="og:image" :content="data.thumbnail" />
