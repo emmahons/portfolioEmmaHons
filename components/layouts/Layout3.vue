@@ -62,7 +62,7 @@
 
 
         </div>
-        <div v-if="data.imagegallery && data.imagegallery.showgallery == true">
+        <div v-if="data.imagegallery && data.imagegallery.showgallery == true" class="mt-12">
           <ImageGallery />
         </div>
 
