@@ -13,7 +13,7 @@ imagegallery:
 thumbnail: /img/img_4169.png
 date: 2024-10-20T16:23:29.802Z
 numbernavigation: 44
-layoutpage: layout2
+layoutpage: layout3
 description: ""
 promoted: "0"
 included: true
