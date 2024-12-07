@@ -26,6 +26,6 @@ This is an illustrated recipe. Its goal is to rise above the language barrier an
 For this recipe, a thorough process was needed. The recipe had to be tested and captured. Next, it was drawn out. This was followed by converting it to vector graphics on Adobe Illustrator. The color was added by using Procreate. The final step was making it coherent in Adobe Indesign. Different factors were carefully thought of; such as the size of the pamphlet itself as well as the individual instructions. This all for optimal ‘legibility’ and user experience. 
 
 Skills: Adobe Illustrator, Adobe Indesign, 
-Key words: visual instructions, inclusivity, information design.
+Key words: visual instructions, inclusivity, information design
 
 - - -
