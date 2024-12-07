@@ -23,6 +23,6 @@ promoted: "2"
 included: true
 ---
 ::div{class="italic"}
-These are books I made during a workshop bookbinding...
+These are books I made during a workshop bookbinding..
 ::
 
