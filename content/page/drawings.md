@@ -6,7 +6,7 @@ tags:
   - Indesign
 imagegallery:
   showgallery: true
-  carouselgrid: carousel
+  carouselgrid: grid
   galleryImages:
     - /img/img_4169.png
     - /img/img_4171.png

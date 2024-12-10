@@ -1,11 +1,11 @@
 /* Body element */
 body {
-    background-color: #eeeeeb;
+    background-color: #f8f8f8;
     color: rgba(0, 0, 0, 0.8);
 }
 
 .light-mode body {
-    background-color: #efefee;
+    background-color: #f5f5f2;
     color: #161717;
 }
 
