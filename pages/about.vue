@@ -8,10 +8,13 @@
             <div></div>
 
             <NuxtImg height=300 src="/img//mij2.jpeg" class="rotate-90 pt-32 pl-8" />
-            <p> Hello! I’m Emma, a student in Media- & Information Design at Luca School of Arts in Brussels. I am
+            <p class="pt-3"> Hello! I’m Emma, a student in Media- & Information Design at Luca School of Arts in
+                Brussels. I am
                 very
                 passionate about my work and always try to give my 100% when working on a project. If you have a
                 question, are interested in working together, or just want to talk: don’t hesitate!</p>
+
+
         </div>
     </div>
 </template>

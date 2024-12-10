@@ -9,7 +9,7 @@ imagegallery:
 thumbnail: /img/img_5970.png
 date: 2024-10-20T16:16:05.650Z
 numbernavigation: 42
-layoutpage: layout1
+layoutpage: layout3
 promoted: "0"
 included: true
 ---

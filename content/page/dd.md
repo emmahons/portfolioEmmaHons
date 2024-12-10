@@ -12,7 +12,7 @@ imagegallery:
 thumbnail: /img/dataviz-locatie.jpg
 date: 2024-10-03T15:12:25.392Z
 numbernavigation: 49
-layoutpage: layout1
+layoutpage: layout3
 promoted: "0"
 included: true
 ---
@@ -25,3 +25,11 @@ This project started with a clean notebook that fits my smallest pocket. In this
 
 skills: Adobe Illustrator, datamining, 
 Key words: information design, infographic
+
+---
+<style>
+.masonry-image{
+  max-width:full;
+  height: auto;
+}
+</style>
