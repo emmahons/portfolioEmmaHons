@@ -65,4 +65,8 @@ const direction = ref<DrawerProps['direction']>('rtl')
 .mt-auto {
   margin-top: auto;
 }
+
+.drawer {
+  font-family: 'josefin sans';
+}
 </style>

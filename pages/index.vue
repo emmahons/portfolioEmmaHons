@@ -47,33 +47,33 @@ onMounted(async () => {
     }
     generalSettings.value = await settingsResponse.json();
 
-    
 
-    if (homepageSettings.value.homepageredirect ==""){
+
+    if (homepageSettings.value.homepageredirect == "") {
       // console.log('no')
       // Start typewriter effect when general settings are loaded
-    animateTypewriter(generalSettings.value.site_title || "", displayedTitle, () => {
-      animateTypewriter(generalSettings.value.site_subtitle || "", displayedSubtitle, () => {
-        const copyrightText = (generalSettings.value.copyright);
-        animateTypewriter(copyrightText, displayedCopyright);
+      animateTypewriter(generalSettings.value.site_title || "", displayedTitle, () => {
+        animateTypewriter(generalSettings.value.site_subtitle || "", displayedSubtitle, () => {
+          const copyrightText = (generalSettings.value.copyright);
+          animateTypewriter(copyrightText, displayedCopyright);
+        });
       });
-    });
     }
     else {
       // console.log('yes')
       // Redirect if homepageredirect is set
       if (homepageSettings.value.homepageredirect) {
-          const redirectPath = homepageSettings.value.homepageredirect
-            ? `/page/${homepageSettings.value.homepageredirect}`
-            : null;
+        const redirectPath = homepageSettings.value.homepageredirect
+          ? `/page/${homepageSettings.value.homepageredirect}`
+          : null;
 
-          if (redirectPath) {
-            router.push(redirectPath);
-          }
+        if (redirectPath) {
+          router.push(redirectPath);
         }
+      }
     }
 
-   
+
 
     isLoading.value = false; // Stop loading when both files are fetched
   } catch (error) {
@@ -100,10 +100,8 @@ onMounted(async () => {
       <!-- Background container -->
       <div class="relative h-full">
         <!-- Background image -->
-        <div
-          class="absolute inset-0 bg-cover bg-center"
-          :style="{ backgroundImage: homepageSettings?.thumbnail ? `url(${homepageSettings.thumbnail})` : '' }"
-        ></div>
+        <div class="absolute inset-0 bg-cover bg-center"
+          :style="{ backgroundImage: homepageSettings?.thumbnail ? `url(${homepageSettings.thumbnail})` : '' }"></div>
 
         <!-- Black overlay for opacity -->
         <div class="absolute inset-0 bg-black opacity-30"></div>
@@ -116,11 +114,9 @@ onMounted(async () => {
         <!-- Info section with typewriter effect -->
         <div class="info flex flex-col items-center justify-center h-screen relative">
           <div class="container text-left p-1 lg:p-20">
-            <div
-              class="container opacity-80 animate-fade animate-once animate-delay-[100ms] text-white"
-            >
+            <div class="container opacity-80 animate-fade animate-once animate-delay-[100ms] text-white">
               <!-- Title -->
-              <div class="relative">
+              <div class="relative homepagetitle">
                 <div class="blur-text text-6xl font-bold">{{ displayedTitle }}</div>
                 <div class="text-6xl font-bold border-r-4 border-white pr-2 animate-blink">
                   {{ displayedTitle }}
@@ -128,13 +124,13 @@ onMounted(async () => {
               </div>
 
               <!-- Subtitle -->
-              <div class="relative mt-4">
+              <div class="relative mt-4 homepagetitle">
                 <div class="blur-text text-2xl font-semibold">{{ displayedSubtitle }}</div>
                 <div class="text-2xl font-semibold">{{ displayedSubtitle }}</div>
               </div>
 
               <!-- Copyright -->
-              <div class="relative mt-4">
+              <div class="relative mt-4 homepagetitle">
                 <div class="blur-text font-light">{{ displayedCopyright }}</div>
                 <div class="font-light">{{ displayedCopyright }}</div>
               </div>
@@ -149,9 +145,12 @@ onMounted(async () => {
 
 <style>
 @keyframes blink {
-  0%, 100% {
+
+  0%,
+  100% {
     border-color: transparent;
   }
+
   50% {
     border-color: white;
   }
@@ -163,12 +162,21 @@ onMounted(async () => {
 
 /* Blurred text styling */
 .blur-text {
-  position: absolute; /* Place the blurred text behind the original */
+  position: absolute;
+  /* Place the blurred text behind the original */
   top: 0;
   left: 0;
-  color: black; /* Black text for contrast */
-  opacity: 0.4; /* Adjust for a subtle blur */
-  filter: blur(8px); /* Apply Gaussian blur */
-  z-index: -1; /* Ensure it's below the main text */
+  color: black;
+  /* Black text for contrast */
+  opacity: 0.4;
+  /* Adjust for a subtle blur */
+  filter: blur(8px);
+  /* Apply Gaussian blur */
+  z-index: -1;
+  /* Ensure it's below the main text */
+}
+
+.homepagetitle {
+  font-family: 'josefin sans';
 }
 </style>
