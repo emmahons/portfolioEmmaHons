@@ -16,12 +16,12 @@
   <el-drawer v-model="drawer" class="drawer min-w-fit max-w-screen" :direction="direction"
     :custom-class="'fixed-drawer'">
     <!-- Drawer content goes here -->
-    <div class="flex flex-col h-full">
+    <div class="flex flex-col h-full ">
       <div>
         <Titleblock />
       </div>
-      <div class="flex-1 overflow-auto">
-        <Navigations />
+      <div class="flex-1 overflow-auto pt-6">
+        <MainNavigation />
       </div>
 
       <!-- Footer is placed at the bottom of the drawer -->
@@ -68,5 +68,20 @@ const direction = ref<DrawerProps['direction']>('rtl')
 
 .drawer {
   font-family: 'josefin sans';
+  background-color: transparent;
+  font-size: xx-large;
+  line-height: 6rem;
+}
+
+.el-collapse {
+  background-color: transparent;
+  border-color: none;
+  --el-collapse-border-color: none;
+  --el-collapse-content-bg-color: none;
+  --el-collapse-header-bg-color: none;
+  --el-collapse-header-font-size: xx-large;
+  --el-collapse-header-text-color: inherit;
+  --el-collapse-content-text-color: inherit;
+  --el-collapse-content-font-size: large;
 }
 </style>

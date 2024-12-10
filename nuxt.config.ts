@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     '@element-plus/nuxt',
     '@nuxt/image',
     '@stefanobartoletti/nuxt-social-share',
-    'nuxt-lazy-load'
+    'nuxt-lazy-load',
   ],
 
   content: {

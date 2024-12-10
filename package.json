@@ -9,12 +9,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@element-plus/nuxt": "^1.0.10",
+    "@element-plus/nuxt": "^1.1.0",
     "@nuxt/devtools": "latest",
     "@nuxt/image": "^1.8.0",
     "@nuxtjs/color-mode": "^3.4.4",
     "@stefanobartoletti/nuxt-social-share": "^1.2.0",
     "@types/node": "^18.17.1",
+    "element-plus": "^2.9.0",
     "nuxt": "latest"
   },
   "dependencies": {
