@@ -11,7 +11,9 @@
             <p class="pt-3"> Hello! I’m Emma, a student in Media- & Information Design at Luca School of Arts in
                 Brussels. I am
                 very
-                passionate about my work and always try to give my 100% when working on a project. If you have a
+                passionate about my work and always try to give my 100% when working on a project. I love design
+                (obviously), but also love music, books, good food & coffee. <br>
+                If you have a
                 question, are interested in working together, or just want to talk: don’t hesitate!</p>
 
 

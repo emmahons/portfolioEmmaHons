@@ -15,7 +15,7 @@
                 <span class="text-xs">Back</span>
             </NuxtLink>
         </div> -->
-        <h1 class="text-4xl pt-12"> contact </h1>
+        <h1 class="text-4xl pt-12"> Contact </h1>
         <p>
             emailadres <br>
             +telefoonnummer
