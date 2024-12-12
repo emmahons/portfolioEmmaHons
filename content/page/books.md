@@ -3,7 +3,7 @@ layout: default
 title: Book binding
 uitleg: o﻿mg dit is de uitleg
 tags:
-  - Bookbinding
+  - bookbinding
 imagegallery:
   showgallery: true
   carouselgrid: grid
