@@ -43,7 +43,12 @@
               }}</h1>
             <p class="text-lg md:text-2xl lg:text-xl pb-5 font-bold">{{ data.description }}</p>
 
-
+            <!-- uitleg -->
+            <div v-if="data.uitleg">
+              <!--dit hebben we in de les toegevoegd, extra categorie om mee te kunnen vormgeven - zie ook config.yml file-->
+              <p class="text-semibold text-3xl lg:text-6xl lg:mb-3"> {{ data.uitleg }}</p>
+              <!-- lg is tailwind voor grote schermen, dan verandert de fontsize naar groter-->
+            </div>
           </div>
 
           <!-- Second column -->

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Book binding
+uitleg: o﻿mg dit is de uitleg
 tags:
   - Bookbinding
 imagegallery:
