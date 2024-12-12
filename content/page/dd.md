@@ -26,7 +26,7 @@ This project started with a clean notebook that fits my smallest pocket. In this
 skills: Adobe Illustrator, datamining, 
 Key words: information design, infographic
 
----
+
 <style>
 .masonry-image{
   max-width:full;

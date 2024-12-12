@@ -28,4 +28,3 @@ For this recipe, a thorough process was needed. The recipe had to be tested and 
 Skills: Adobe Illustrator, Adobe Indesign, 
 Key words: visual instructions, inclusivity, information design
 
-- - -
