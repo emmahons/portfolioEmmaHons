@@ -11,7 +11,7 @@ imagegallery:
     - /img/dataviz-tijd.jpg
 thumbnail: /img/dataviz-locatie.jpg
 date: 2024-10-03T15:12:25.392Z
-numbernavigation: 49
+numbernavigation: 2
 layoutpage: layout3
 promoted: "0"
 included: true

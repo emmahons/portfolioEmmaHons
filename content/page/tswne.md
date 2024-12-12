@@ -19,7 +19,7 @@ imagegallery:
     - /img/tswne10.jpeg
 thumbnail: /img/tswne1.jpeg
 date: 2024-10-03T15:13:02.450Z
-numbernavigation: 48
+numbernavigation: 3
 layoutpage: layout3
 promoted: "0"
 included: true

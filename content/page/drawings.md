@@ -12,7 +12,7 @@ imagegallery:
     - /img/img_4171.png
 thumbnail: /img/img_4169.png
 date: 2024-10-20T16:23:29.802Z
-numbernavigation: 44
+numbernavigation: 7
 layoutpage: layout3
 description: ""
 promoted: "0"

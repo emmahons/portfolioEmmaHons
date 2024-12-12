@@ -23,7 +23,7 @@ imagegallery:
     - /img/o13.jpeg
 thumbnail: /img/o1.jpeg
 date: 2024-10-10T14:04:11.477Z
-numbernavigation: 50
+numbernavigation: 1
 layoutpage: layout2
 promoted: "2"
 included: true

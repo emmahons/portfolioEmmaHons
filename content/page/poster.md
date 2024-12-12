@@ -8,7 +8,7 @@ imagegallery:
     - /img/img_5970.png
 thumbnail: /img/img_5970.png
 date: 2024-10-20T16:16:05.650Z
-numbernavigation: 42
+numbernavigation: 8
 layoutpage: layout3
 description: ""
 promoted: "0"
