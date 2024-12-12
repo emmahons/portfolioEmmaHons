@@ -8,7 +8,7 @@ imagegallery:
   showgallery: true
   carouselgrid: grid
   galleryImages:
-    - /img/kzw.jpeg
+    - /img/kzw1.jpeg
     - /img/kzw2.jpeg
     - /img/kzw_blog.png 
     - /img/kzw_blog2.png
