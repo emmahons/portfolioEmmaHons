@@ -102,6 +102,10 @@
   opacity: .7;
 }
 
+:root{
+  --el-color-primary: none;
+}
+
 @media (max-width: 768px) {
   .fullscreen-overlay {
     padding: 10px;

@@ -31,3 +31,7 @@ h1 {
     font-size: x-large;
     font-family: "josefin sans";
 }
+
+:root {
+    --el-color-primary: none;
+}
