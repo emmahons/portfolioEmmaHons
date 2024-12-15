@@ -16,7 +16,7 @@ imagegallery:
 thumbnail: /img/kzw_blog.png
 date: 2024-09-19T13:38:30.130Z
 numbernavigation: 6
-layoutpage: layout3
+layoutpage: layout1
 promoted: "1"
 included: true
 ---

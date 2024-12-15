@@ -129,6 +129,21 @@ onMounted(async () => {
                 <div class="text-2xl font-semibold">{{ displayedSubtitle }}</div>
               </div>
 
+              <!-- knoppen -->
+              <div class=""> <!--"flex justify-between pt-20" -->
+                <a href="Page" class="">
+                  work 
+                </a> -
+                <a href="about" class="hover:text-orange-500">
+                  about 
+                </a> -
+                <a href="contact" class="hover:text-orange-500">
+                  contact
+                </a>
+              </div>
+
+
+
               <!-- Copyright -->
               <div class="relative mt-4 homepagetitle">
                 <div class="blur-text font-light">{{ displayedCopyright }}</div>
@@ -178,5 +193,17 @@ onMounted(async () => {
 
 .homepagetitle {
   font-family: 'josefin sans';
+}
+
+.dark-mode a:hover {
+  color: #3b577e;
+}
+
+.gray-mode a:hover {
+  color: #986f31;
+}
+
+.light-mode a:hover {
+  color: #397375;
 }
 </style>

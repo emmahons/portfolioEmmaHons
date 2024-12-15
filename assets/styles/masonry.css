@@ -45,7 +45,7 @@
 }
 
 .masonry-item-text:hover {
-  transform: translateY(-2px);
+  /*transform: translateY(-2px)*/
   opacity: 1;
 }
 
