@@ -21,4 +21,3 @@ For this project, a quote from iconic designer Paul Smith was taken about good d
 ::
 
 The project started with research about Smith. As he is well known for his stripes, there is much more to him as a designer. We ended up opting for a simple, clean design. The color palette is based off his brand and thus fits in to Smith’s house style. 
-Skills: Adobe Indesign, Adobe After Effects

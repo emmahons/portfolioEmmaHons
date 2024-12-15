@@ -3,6 +3,7 @@ layout: default
 title: Drawing Data
 tags:
   - Illustrator
+  - Information Design
 imagegallery:
   showgallery: true
   carouselgrid: grid

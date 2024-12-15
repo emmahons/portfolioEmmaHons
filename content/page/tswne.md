@@ -3,6 +3,7 @@ layout: default
 title: To see with naked eyes
 tags:
   - Indesign
+  - Information Design
 imagegallery:
   showgallery: true
   carouselgrid: grid
