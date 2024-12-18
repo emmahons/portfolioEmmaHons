@@ -80,6 +80,7 @@
               <NuxtLink :to="`/tags/${item}`">{{ item }}</NuxtLink> <!-- Load NuxtLink -->
             </li>
           </article>
+          <el-backtop :right="200" :bottom="100" class="" /> <!-- back to top element -->
         </div>
       </div>
 

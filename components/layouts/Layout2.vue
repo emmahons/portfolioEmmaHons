@@ -76,7 +76,9 @@
           <li v-for="(item, index) in data.tags" :key="index" class="pt-2 text-xs opacity-50 hover:opacity-100">
             <NuxtLink :to="`/tags/${item}`">{{ item }}</NuxtLink> <!-- Load NuxtLink -->
           </li>
+          <el-backtop :right="200" :bottom="100" class="" /> <!-- back to top element -->
         </article>
+        
       </div>
 
       <!-- Loading the ShareButtons component -->
@@ -121,5 +123,11 @@ defineProps(['data', 'formatDate']);
   100% {
     transform: rotate(360deg);
   }
+}
+
+.el-backtop {
+  color: rgb(56, 55, 55);
+  background-color: transparent;
+  box-shadow: none;
 }
 </style>
