@@ -26,7 +26,7 @@
         <h1 class="text-4xl pt-12"> Contact </h1>
         <p>
             emailadres <br>
-            +telefoonnummer
+            +telefoonnummer dit is even een test
         </p>
         <p> message me!</p>
         <el-input v-model="input" style="width: 240px" placeholder="message ..." />
