@@ -132,10 +132,10 @@ onMounted(async () => {
               <!-- knoppen -->
               <div class=""> <!--"flex justify-between pt-20" -->
                 <a href="Page" class="">
-                  work 
+                  work
                 </a> -
                 <a href="about" class="hover:text-orange-500">
-                  about 
+                  about
                 </a> -
                 <a href="contact" class="hover:text-orange-500">
                   contact
@@ -158,7 +158,7 @@ onMounted(async () => {
 </template>
 
 
-<style>
+<style scoped>
 @keyframes blink {
 
   0%,

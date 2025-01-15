@@ -1,5 +1,6 @@
 <template>
   <div class="">
+
     <el-collapse accordion class="">
       <el-collapse-item title="Work" name="1">
         <ul v-for="post in folders" :key="post.slug">
@@ -7,18 +8,20 @@
             <li class="leading-7">{{ post.title }}</li>
           </NuxtLink>
         </ul>
-        <NuxtLink to="Page" class=" accordion italic">
+        <NuxtLink to="Page" class="accordion italic">
           see all work
         </NuxtLink>
       </el-collapse-item>
     </el-collapse>
-    <NuxtLink to="about">
-      About
-    </NuxtLink>
-    <br>
-    <NuxtLink to="contact">
-      Contact
-    </NuxtLink>
+
+    <div class="links-container">
+      <NuxtLink to="about">
+        About
+      </NuxtLink>
+      <NuxtLink to="contact">
+        Contact
+      </NuxtLink>
+    </div>
 
   </div>
 </template>
@@ -27,11 +30,11 @@
 import { ref, onMounted } from 'vue';
 import { useAsyncData } from '#app';
 
-const activeNames = ref(['1'])
+const activeNames = ref(['1']);
 const handleChange = (val: string[]) => {
-  console.log(val)
-}
-  ;
+  console.log(val);
+};
+
 // Define a ref for storing folders
 const folders = ref([]);
 
@@ -49,4 +52,17 @@ onMounted(() => {
 });
 </script>
 
-<style></style>
+<style scoped>
+.links-container {
+  display: flex;
+  flex-direction: column;
+  /* Stack NuxtLink elements vertically */
+  gap: 1rem;
+  /* Optional: adds spacing between links */
+}
+
+.links-container a {
+  text-decoration: none;
+  /* Optional: removes underline from the links */
+}
+</style>

@@ -74,7 +74,7 @@ const direction = ref<DrawerProps['direction']>('rtl')
 }
 
 .el-collapse {
-  background-color: transparent;
+  background-color: none;
   border-color: none;
   --el-collapse-border-color: none;
   --el-collapse-content-bg-color: none;
