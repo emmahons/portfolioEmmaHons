@@ -5,7 +5,7 @@
       <el-collapse-item title="Work" name="1">
         <ul v-for="post in folders" :key="post.slug">
           <NuxtLink :to="post._path">
-            <li class="leading-7">{{ post.title }}</li>
+            <li class="leading-7 nuxtlink">{{ post.title }}</li>
           </NuxtLink>
         </ul>
         <NuxtLink to="Page" class="accordion italic">
@@ -14,10 +14,12 @@
       </el-collapse-item>
     </el-collapse>
 
-    <div class="links-container">
+    <div class="links-container nuxtlink ">
       <NuxtLink to="about">
         About
       </NuxtLink>
+    </div>
+    <div class="links-container nuxtlink ">
       <NuxtLink to="contact">
         Contact
       </NuxtLink>
