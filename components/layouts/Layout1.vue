@@ -6,7 +6,8 @@
       </div>
       <div class="container">
         <h1 class="text-3xl md:text-3xl lg:text-6xl lg:mb-10 font-bold">{{ data.title }}</h1>
-        <NuxtImg src="/img/tswne1.jpeg" />
+        <div v-if="data.grotefoto"> <img>{{ data.grotefoto }}</img></div>
+       
         <div class="">
           <div>
             <p class=" pb-10 columns-2">

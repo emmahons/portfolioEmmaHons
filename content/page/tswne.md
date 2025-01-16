@@ -1,6 +1,7 @@
 ---
 layout: default
 title: To see with naked eyes
+grotefoto: /img/tswne1.jpeg
 tags:
   - Indesign
   - Information Design

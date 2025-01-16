@@ -24,6 +24,7 @@ collections:
       - { label: 'Subtitle', name: 'subtitle', widget: 'string', required: false, hint: 'Fill in a subtitle. Leave blank if you do not want one.'  }
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'The main content for this item.'  }
       - { label: 'uitleg', name: 'uitleg', widget: 'markdown', hint: 'uitleg' } 
+      - label: 'grotefoto', name: 'grotefoto', widget: 'image', hint: 'grotefoto'
       - label: 'Tags'
         name: 'tags'
         widget: 'relation'
