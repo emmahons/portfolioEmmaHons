@@ -11,8 +11,7 @@ imagegallery:
   galleryImages:
     - /img/kzw1.jpeg
     - /img/kzw2.jpeg
-    - /img/kzw_blog.png 
-    - /img/kzw_blog2.png
+    
 thumbnail: /img/kzw_blog.png
 date: 2024-09-19T13:38:30.130Z
 numbernavigation: 6
