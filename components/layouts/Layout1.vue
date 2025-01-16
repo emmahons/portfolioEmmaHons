@@ -1,14 +1,20 @@
 <template>
-  <div class="layout1">
+  <div class="layout1 mt-6">
     <ClientOnly>
       <div class="pr-5 z-100">
         <Drawer />
       </div>
       <div class="container">
         <h1 class="text-3xl md:text-3xl lg:text-6xl lg:mb-10 font-bold">{{ data.title }}</h1>
-        <p class="text-lg md:text-2xl lg:text-xl pb-10 font-bold">{{ data.description }}</p>
+        <NuxtImg src="/img/tswne1.jpeg" />
+        <div class="">
+          <div>
+            <p class=" pb-10 columns-2">
+              <ContentRenderer :value="data" />
+            </p>
+          </div>
+        </div>
 
-        <ContentRenderer :value="data" />
 
         <div v-if="data.imagegallery && data.imagegallery.showgallery == true" class="pt-10 pb-20">
           <ImageGallery />
