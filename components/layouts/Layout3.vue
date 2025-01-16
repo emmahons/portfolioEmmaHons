@@ -83,9 +83,6 @@
         </div>
       </div>
 
-      <!-- Loading the ShareButtons component -->
-      <ShareButtons />
-
       <!-- SEO metadata -->
       <Title>{{ data.title }}</Title>
       <Meta name="description" :content="data.description" />

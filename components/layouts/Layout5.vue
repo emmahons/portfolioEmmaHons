@@ -21,7 +21,7 @@
           </article>
         </div>
       </div>
-      <ShareButtons />
+
 
       <!-- SEO metadata -->
       <!-- Regular Meta Tags -->
