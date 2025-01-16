@@ -10,7 +10,6 @@ imagegallery:
   galleryImages:
     - /img/tswne2.jpeg
     - /img/tswne3.jpeg
-    - /img/tswne1.jpeg
     - /img/tswne4.jpeg
     - /img/tswne5.jpeg
     - /img/tswne6.jpeg
