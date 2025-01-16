@@ -19,7 +19,7 @@ imagegallery:
 thumbnail: /img/boekje1.jpeg
 date: 2024-10-10T14:04:11.477Z
 numbernavigation: 4
-layoutpage: layout2
+layoutpage: layout5
 promoted: "2"
 included: true
 ---
