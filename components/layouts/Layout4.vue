@@ -42,19 +42,20 @@
     </div>
 
     <!-- Main section -->
-    <div class="container mx-auto p-4 animate-fade animate-once animate-delay-[500ms]" v-if="imageLoaded">
-      <div class=" md:grid-cols-2 gap-4 mt-6">
+    <div class="container mx-auto p-4 animate-fade animate-once animate-delay-[500ms]" >
+      <div class="md:grid-cols-2 gap-4 mt-6">
         <h1 class="text-3xl md:text-3xl lg:text-6xl lg:mb-3 font-bold">{{ data.title }}</h1>
-        <div>
+        <div class="flex space-x-4">
           <div v-if="data.imagegallery && data.imagegallery.showgallery == true" class="basis-2/3">
             <ImageGallery/> 
           </div>
-        </div>
+      
 
         <!-- Second column -->
-        <div>
-          <ContentRenderer :value="data" class="basis-1/3"/>
-        </div>
+          <div class="basis-1/3">
+           <ContentRenderer :value="data" class="basis-1/3"/>
+          </div>
+          </div>
       </div>
 
       <!-- Second row -->

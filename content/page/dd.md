@@ -24,8 +24,6 @@ This project is based on the works of Giorgia Lupi and Stefanie Posavec and thei
 
 This project started with a clean notebook that fits my smallest pocket. In this notebook I then noted, as meticulously as possible, everything I did, with whom and how I felt while doing it. After writing this all down for a full week, I started the datamining process. By looking at the data and analyzing it, I got a better understanding of the interesting information. With this, I then sketched out different possibilities and worked out two final versions. These physical versions, with pencil on paper, were later converted to a digital format. 
 
-skills: Adobe Illustrator, datamining, 
-Key words: information design, infographic
 
 
 <style>
