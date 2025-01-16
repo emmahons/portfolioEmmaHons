@@ -8,7 +8,7 @@
             <li class="leading-7 nuxtlink">{{ post.title }}</li>
           </NuxtLink>
         </ul>
-        <NuxtLink to="Page" class="accordion italic">
+        <NuxtLink to="Page" class=" nuxtlink accordion italic">
           see all work
         </NuxtLink>
       </el-collapse-item>
@@ -68,4 +68,18 @@ onMounted(() => {
   text-decoration: none;
   /* Optional: removes underline from the links */
 }
+
+.light-mode a:hover {
+  color: #fcfcfc;
+}
+.light-mode a:target {
+  text-decoration: underline;
+}
+.gray-mode a:hover {
+  color: #251603ef;
+}
+.dark-mode a:hover {
+  color: #20211e;
+}
+
 </style>

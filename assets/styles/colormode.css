@@ -54,13 +54,6 @@ body {
 .router-link-active {
     border-bottom: 1px solid rgba(50, 64, 63, 0.2);
 }*/
-.nuxtlink:hover{
-    text-decoration: underline;
-}
-
-.nuxtlink:target{
-    text-decoration: underline;
-}
 
 .dark-mode .router-link-active {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
