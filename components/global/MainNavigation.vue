@@ -1,7 +1,7 @@
 <template>
   <div class="">
 
-    <el-collapse accordion class="">
+    <el-collapse accordion>
       <el-collapse-item title="Work" name="1">
         <ul v-for="post in folders" :key="post.slug">
           <NuxtLink :to="post._path">
@@ -57,8 +57,9 @@ onMounted(() => {
   display: flex;
   flex-direction: column;
   /* Stack NuxtLink elements vertically */
-  gap: 1rem;
+  gap: 0;
   /* Optional: adds spacing between links */
+  line-height: 40pt;
 }
 
 .links-container a {
