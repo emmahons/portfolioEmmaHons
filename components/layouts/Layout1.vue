@@ -6,7 +6,7 @@
       </div>
       <div class="container">
         <h1 class="text-3xl md:text-3xl lg:text-6xl lg:mb-10 font-bold">{{ data.title }}</h1>
-        <div v-if="data.grotefoto"> <img>{{ data.grotefoto }}</img></div>
+        <div v-if="data.imagezgallery"> <img>{{ data.imagezgallery }}</img></div>
        
         <div class="">
           <div>
@@ -22,7 +22,7 @@
         </div>
 
         <div class="text-xs leading-3 container">
-          <hr>
+          <hr class="">
           <p class="text-xs opacity-50 hover:opacity-100 pb-5">Last update: {{ formatDate(data.date) }}</p>
           <article v-if="data.tags" class="tags">
             <li v-for="(item, index) in data.tags" :key="index" class="pt-2 text-xs opacity-50 hover:opacity-100">

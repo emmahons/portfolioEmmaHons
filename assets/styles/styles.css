@@ -16,9 +16,10 @@ p {
 }
 
 hr {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #cccccc;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
+    border-top-width: 0px !important;
 }
 
 ul,
