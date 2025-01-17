@@ -89,5 +89,13 @@ onMounted(() => {
   --el-collapse-content-bg-color: none;
   --el-collapse-header-bg-color: none;
   --el-collapse-border-color: none;
+  font-family: 'josefin sans';
+  --el-collapse-border-color: none;
+  --el-collapse-content-bg-color: none;
+  --el-collapse-header-bg-color: none;
+  --el-collapse-header-font-size: xx-large;
+  --el-collapse-header-text-color: inherit;
+  --el-collapse-content-text-color: inherit;
+  --el-collapse-content-font-size: large;
 }
 </style>
