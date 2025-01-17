@@ -10,7 +10,7 @@ imagegallery:
 thumbnail: /img/csm_logotype.png
 date: 2024-10-15T08:56:38.555Z
 numbernavigation: 9
-layoutpage: layout3
+layoutpage: layout2
 description: ""
 promoted: "0"
 included: true

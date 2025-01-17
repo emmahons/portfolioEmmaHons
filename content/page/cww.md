@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Cooking without words
+uitleg: 
 tags:
   - Indesign
   - Illustrator
@@ -15,7 +16,7 @@ imagegallery:
 thumbnail: /img/kzw_blog.png
 date: 2024-09-19T13:38:30.130Z
 numbernavigation: 6
-layoutpage: layout1
+layoutpage: layout3
 promoted: "1"
 included: true
 ---
