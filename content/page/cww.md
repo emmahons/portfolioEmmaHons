@@ -10,12 +10,12 @@ imagegallery:
   showgallery: true
   carouselgrid: grid
   galleryImages:
-    - /img/kzw1.jpeg
-    - /img/kzw2.jpeg
+    - /img/kzw2 copy.jpg
+    - /img/kzw1 copy.jpg
     
 thumbnail: /img/kzw_blog.png
 date: 2024-09-19T13:38:30.130Z
-numbernavigation: 3
+numbernavigation: 4
 layoutpage: layout3
 promoted: "1"
 included: true
