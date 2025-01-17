@@ -1,8 +1,8 @@
 <template>
   <div class="">
 
-    <el-collapse accordion>
-      <el-collapse-item title="Work" name="1">
+    <el-collapse accordion class="accordeon">
+      <el-collapse-item title="Work" name="1" class="nuxtlink">
         <ul v-for="post in folders" :key="post.slug">
           <NuxtLink :to="post._path">
             <li class="leading-7 nuxtlink">{{ post.title }}</li>
@@ -72,14 +72,20 @@ onMounted(() => {
 .light-mode a:hover {
   color: #fcfcfc;
 }
+
 .light-mode a:target {
   text-decoration: underline;
 }
+
 .gray-mode a:hover {
   color: #251603ef;
 }
+
 .dark-mode a:hover {
   color: #20211e;
 }
 
+.accordeon {
+  --el-collapse-content-bg-color: none;
+}
 </style>
