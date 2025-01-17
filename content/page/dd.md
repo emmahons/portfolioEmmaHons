@@ -8,11 +8,11 @@ imagegallery:
   showgallery: true
   carouselgrid: grid
   galleryImages:
-    - /img/dataviz-locatie.jpg
-    - /img/dataviz-tijd.jpg
+    - /img/data1.jpeg
+    - /img/data2.jpeg
 thumbnail: /img/dataviz-locatie.jpg
 date: 2024-10-03T15:12:25.392Z
-numbernavigation: 5
+numbernavigation: 6
 layoutpage: layout4
 promoted: "0"
 included: true
