@@ -16,7 +16,7 @@ imagegallery:
 imagezgallery: /img/post_finaal.png
 thumbnail: /img/affiches_finaal_juni1.png
 date: 2024-10-20T16:14:52.143Z
-numbernavigation: 5
+numbernavigation: 4
 layoutpage: layout3
 promoted: "0"
 included: true

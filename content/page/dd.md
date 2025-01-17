@@ -12,7 +12,7 @@ imagegallery:
     - /img/dataviz-tijd.jpg
 thumbnail: /img/dataviz-locatie.jpg
 date: 2024-10-03T15:12:25.392Z
-numbernavigation: 2
+numbernavigation: 5
 layoutpage: layout4
 promoted: "0"
 included: true
@@ -23,7 +23,6 @@ This project is based on the works of Giorgia Lupi and Stefanie Posavec and thei
 ::
 
 This project started with a clean notebook that fits my smallest pocket. In this notebook I then noted, as meticulously as possible, everything I did, with whom and how I felt while doing it. After writing this all down for a full week, I started the datamining process. By looking at the data and analyzing it, I got a better understanding of the interesting information. With this, I then sketched out different possibilities and worked out two final versions. These physical versions, with pencil on paper, were later converted to a digital format. 
-
 
 
 <style>
