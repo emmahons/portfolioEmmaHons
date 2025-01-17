@@ -46,23 +46,25 @@
         <div class="grid grid-cols-3 md:grid-cols-3 gap-4 mt-6">
           <!-- First column -->
           <div>
-            <h1 class="text-3xl md:text-3xl lg:text-6xl lg:mb-3 font-bold">{{ data.title }}</h1>
-            <h1 v-if="data.subtitle" class="opacity-80 text-xl md:text-2xl lg:text-3xl font-bold pb-10">{{ data.subtitle}}</h1>
+            <h1 class="text-3xl md:text-3xl lg:text-6xl lg:mb-3 font-bold col-3">{{ data.title }}</h1>
+            <h1 v-if="data.subtitle" class="opacity-80 text-xl md:text-2xl lg:text-3xl font-bold pb-10">{{
+              data.subtitle }}</h1>
             <p class="text-lg md:text-2xl lg:text-xl pb-5 font-bold">{{ data.description }}</p>
-
-
           </div>
-
-          <!-- Second column -->
-          <div class="col-span-2">
+          <div></div>
+          <div class="col-start-1 col-end-3">
             <ContentRenderer :value="data" />
           </div>
 
 
-
-        </div>
-        <div v-if="data.imagegallery && data.imagegallery.showgallery == true" class="mt-12">
-          <ImageGallery />
+          <div v-if="data.imagegallery && data.imagegallery.showgallery == true" class=" col-start-2 col-end-4 mt-12">
+            <ImageGallery />
+          </div>
+          <div></div>
+          <div v-if="data.uitleg" class="col-start-1 col-end-3">
+            <p> {{ data.uitleg }}</p>
+          </div>
+          <NuxtImg v-if="data.imagezgallery" :src="data.imagezgallery == true" class="col-start-2 col-end-4 mt-12"/>
         </div>
 
         <!-- Second row -->
