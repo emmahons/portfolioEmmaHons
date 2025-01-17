@@ -87,5 +87,7 @@ onMounted(() => {
 
 .accordeon {
   --el-collapse-content-bg-color: none;
+  --el-collapse-header-bg-color: none;
+  --el-collapse-border-color: none;
 }
 </style>
