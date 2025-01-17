@@ -24,11 +24,12 @@
             </NuxtLink>
         </div> -->
         <h1 class="text-4xl pt-12"> Contact </h1>
-        <p>
-            emailadres <br>
-            +telefoonnummer dit is even een test
+        <p> feel free to contact me if you have a question or if you want to work together ! </p>
+        <p class="pt-6"> you can reach me at<br>
+            +32123456789 <br>
+            email.adres@gmail.com
         </p>
-        <p> message me!</p>
+        <p class="pt-6"> or you can leave a lessage here </p>
         <el-input v-model="input" style="width: 240px" placeholder="message ..." />
     </div>
 </template>
