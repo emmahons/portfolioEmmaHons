@@ -1,6 +1,7 @@
 ---
 layout: default
 title: The Twice-Burned Library
+uitleg: For this book design, I tried to capture the fragility of the knowledge and lives lost during the fires. I tried to capture this feeling by using very thin paper, an 'old-looking' font and pictures that appear to be leaflets in between pages. I primarily worked with the  orange (and blue) to capture the colors of fire.  
 tags:
   - Indesign
 imagegallery:
@@ -30,7 +31,7 @@ included: true
 The Twice-Burned Library is a chapter of the book written by Richard Ovenden. For this assignment, an alternative design was created to the orginal version. Special thanks fot this project goes out to mr Ovenden, ms Van Huffel and our guide.  
 ::
 
-For this book design, I tried to capture the fragility of the knowledge and lives lost during the fires. I tried to capture this feeling by using very thin paper, an 'old-looking' font and pictures that appear to be leaflets in between pages. I primarily worked with the  orange (and blue) to capture the colors of fire.  
+
  
 
 
