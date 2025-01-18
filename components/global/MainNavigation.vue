@@ -71,6 +71,7 @@ onMounted(() => {
 
 .light-mode a:hover {
   color: #fcfcfc;
+  font-family: "libre baskerville";
 }
 
 .light-mode a:target {
@@ -79,10 +80,12 @@ onMounted(() => {
 
 .gray-mode a:hover {
   color: #251603ef;
+  font-family: "libre baskerville";
 }
 
 .dark-mode a:hover {
   color: #20211e;
+  font-family: "libre baskerville";
 }
 
 .accordeon {

@@ -197,13 +197,16 @@ onMounted(async () => {
 
 .dark-mode a:hover {
   color: #3b577e;
+  font-family: "libre baskerville";
 }
 
 .gray-mode a:hover {
   color: #986f31;
+  font-family: "libre baskerville";
 }
 
 .light-mode a:hover {
   color: #397375;
+  font-family: "libre baskerville";
 }
 </style>
