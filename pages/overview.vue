@@ -25,12 +25,12 @@
             </div>
             <NuxtLink :to="post._path" class="block">
               <div class="masonry-item-text mb-12">
-                <h2 class="text-xl font-semibold mb-2 text-black ">{{ post.title }}</h2>
+                <h2 class="text-xl font-semibold mb-2  ">{{ post.title }}</h2>
                 <!-- Limiting the height of the description and making it responsive -->
                 <p v-if="post.description" class="text-gray-600 line-clamp-3 ">{{ post.description }}</p>
                 <ClientOnly>
-                  <article v-if="post.tags" class="text-xs mt-2 text-black">
-                    <li v-for="(item, index) in post.tags" :key="index" class="inline mr-2 text-black">
+                  <article v-if="post.tags" class="text-xs mt-2 ">
+                    <li v-for="(item, index) in post.tags" :key="index" class="inline mr-2 ">
                       <NuxtLink :to="`/tags/${item}`">{{ item }}</NuxtLink>
                     </li>
                   </article>
@@ -54,3 +54,9 @@
       .find()
   })
   </script>
+
+  <style>
+.post .darkmode{
+  color: white;
+}
+</style>
