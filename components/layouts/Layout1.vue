@@ -7,15 +7,17 @@
       <div class="container">
         <h1 class="text-3xl md:text-3xl lg:text-6xl lg:mb-10 font-bold">{{ data.title }}</h1>
         <div v-if="data.imagezgallery"> <img>{{ data.imagezgallery }}</img></div>
-       
-        <div class="">
+
+        <div class="grid lg:grid-cols-2 gap-x-6 sm:grid-cols-1 ">
           <div>
-            <p class=" pb-10 columns-2">
+            <p class=" pb-10 ">
               <ContentRenderer :value="data" />
             </p>
           </div>
+          <div v-if="data.uitleg" class="">
+            <p> {{ data.uitleg }}</p>
+          </div>
         </div>
-
 
         <div v-if="data.imagegallery && data.imagegallery.showgallery == true" class="pt-10 pb-20">
           <ImageGallery />
@@ -31,7 +33,7 @@
           </article>
         </div>
       </div>
-   
+
 
       <!-- SEO metadata -->
       <!-- Regular Meta Tags -->

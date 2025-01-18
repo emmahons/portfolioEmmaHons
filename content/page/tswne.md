@@ -1,6 +1,8 @@
 ---
 layout: default
 title: To see with naked eyes
+uitleg: It started out by walking around with a camera and making pictures of ‘tableaus’ on the street. These pictures were then divided into colors, to be able to calculate the amount each color appears in the photo. This was followed by a lot of mixing paint and testing colors. In the meantime the names and stories of each color and book was thought of. After making templates on Indesign and printing these out, each paper was meticulously painted. The final step was binding these books together. 
+ 
 tags:
   - Indesign
   - Information Design
@@ -30,9 +32,3 @@ This project is all about capturing color. How and where do we see color in our 
 
 These 10 books aim to capture and structure color. They are all based on pictures taken of color compositions in the neighborhood. The key colors in each picture were reproduced by hand with acrylic paint, using only the three base colors. The amount of each color is represented in the tab on the right hand side. Afterwards, each color was assigned a name based on personal association. With these names small stories were created to guide the reader through each book. These books are a testimony of me and how I see the world in colors. 
 ::
-
-It started out by walking around with a camera and making pictures of ‘tableaus’ on the street. These pictures were then divided into colors, to be able to calculate the amount each color appears in the photo. This was followed by a lot of mixing paint and testing colors. In the meantime the names and stories of each color and book was thought of. After making templates on Indesign and printing these out, each paper was meticulously painted. The final step was binding these books together. 
- 
-
-skills: photography, Adobe Indesign, bookbinding, color, paint
-Key words: color, acrylic paint,
