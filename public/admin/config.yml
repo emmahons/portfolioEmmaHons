@@ -49,7 +49,6 @@ collections:
               summary: '{{fields.image}}',
               field: {label: Image, name: Galleryimage, widget: image},
             }
-      - { label: 'imagezgallery', name: 'imagezgallery', widget: 'image'}
       - { label: 'Featured Image', name: 'thumbnail', widget: 'image', hint: 'Choose a picture from the media library for this item. This picture is used as a reference to the item in different layouts.' }      
       - { label: 'Publish Date', name: 'date', widget: 'datetime', hint: 'Date of publication for this item. Click on "Now" to set the publication date to the cuurent one.' }
       - { label: 'In/Excluded and position in the navigation', name: 'numbernavigation', widget: 'number', value_type: 'int', min: 0, max: 50, step: 1, hint: 'Set this number higher than 0 to activate this item in the navigation. Leaving it on to 0 will exclude this item. The higher the number, the higher this item will be placed in the main navigation. The highest value is 50', required: false }

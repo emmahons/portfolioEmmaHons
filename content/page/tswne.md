@@ -19,8 +19,7 @@ imagegallery:
     - /img/tswne8.jpeg
     - /img/tswne9.jpeg
     - /img/tswne10.jpeg
-imagezgallery: /img/tswne1.jpeg
-thumbnail: /img/tswne1.jpeg
+thumbnail: /img/tswneov.jpeg
 date: 2024-10-03T15:13:02.450Z
 numbernavigation: 2
 layoutpage: layout1

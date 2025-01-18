@@ -28,7 +28,7 @@ promoted: "0"
 included: true
 ---
 ::div{class="italic"}
-The Twice-Burned Library is a chapter of the book written by Richard Ovenden. For this assignment, an alternative design was created to the orginal version. Special thanks fot this project goes out to mr Ovenden, ms Van Huffel and our guide.  
+The Twice-Burned Library is a chapter of the book written by Richard Ovenden. For this assignment, an alternative design was created to the orginal version. Special thanks for this project goes out to mr Ovenden, Ellen Van Huffel and our Leuven-guide Marc Bracke.  
 ::
 
 
