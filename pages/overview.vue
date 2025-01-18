@@ -18,14 +18,14 @@
         </div>
         <!-- Responsive Masonry Layout -->
         <div class="masonry grid-cols-2">
-          <div class="masonry-item" v-for="post in posts" :key="post.slug">
+          <div class="masonry-item px-2" v-for="post in posts" :key="post.slug">
             <div class="masonry-image  ">
-              <NuxtImg :src="post.thumbnail" alt="Post thumbnail" class="w-full h-64 object-cover  mb-2" :width="750"
+              <NuxtImg :src="post.thumbnail" alt="Post thumbnail" class="w-full h-64 object-cover mb-2" :width="750"
                 :height="550" />
             </div>
             <NuxtLink :to="post._path" class="block">
               <div class="masonry-item-text mb-12">
-                <h2 class="text-xl font-semibold mb-2 text-black">{{ post.title }}</h2>
+                <h2 class="text-xl font-semibold mb-2 text-black ">{{ post.title }}</h2>
                 <!-- Limiting the height of the description and making it responsive -->
                 <p v-if="post.description" class="text-gray-600 line-clamp-3 ">{{ post.description }}</p>
                 <ClientOnly>
