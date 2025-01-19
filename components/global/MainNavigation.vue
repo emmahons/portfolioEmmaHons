@@ -4,7 +4,7 @@
     <el-collapse accordion class="accordeon">
       <el-collapse-item title="Work" name="1" class="nuxtlink">
         <ul v-for="post in folders" :key="post.slug">
-          <NuxtLink :to="post._path">
+          <NuxtLink :to="post._path" :active-class='"active"'>
             <li class="leading-7 nuxtlink">{{ post.title }}</li>
           </NuxtLink>
         </ul>
@@ -15,12 +15,12 @@
     </el-collapse>
 
     <div class="links-container nuxtlink ">
-      <NuxtLink to="about">
+      <NuxtLink to="about" :active-class='"active"'>
         About
       </NuxtLink>
     </div>
     <div class="links-container nuxtlink ">
-      <NuxtLink to="contact">
+      <NuxtLink to="contact" :active-class='"active"'>
         Contact
       </NuxtLink>
     </div>
@@ -87,6 +87,12 @@ onMounted(() => {
   color: #20211e;
   font-family: "libre baskerville";
 }
+
+.active{
+  color: white !important;
+  font-family: "libre baskerville";
+}
+
 
 .accordeon {
   --el-collapse-content-bg-color: none;
