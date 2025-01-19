@@ -123,4 +123,11 @@ defineProps(['data', 'formatDate']);
     transform: rotate(360deg);
   }
 }
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 </style>

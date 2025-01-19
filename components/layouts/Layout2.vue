@@ -136,4 +136,12 @@ defineProps(['data', 'formatDate']);
   background-color: transparent;
   box-shadow: none;
 }
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 </style>

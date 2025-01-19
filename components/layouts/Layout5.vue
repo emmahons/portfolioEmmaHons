@@ -49,3 +49,12 @@
 <script setup>
 defineProps(['data', 'formatDate']);
 </script>
+
+<style>
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+</style>

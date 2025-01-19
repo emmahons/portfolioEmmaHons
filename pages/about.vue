@@ -14,7 +14,7 @@
             <h1 class="text-4xl pt-12">About me </h1>
             <div></div>
 
-            <NuxtImg height=300 src="/img//mij3.jpg" class=" pt-32 pl-8" />
+            <NuxtImg height=300 src="/img//mij3.jpg" class=" pt-6 w " />
             <p class="pt-3"> Hello! I’m Emma, a student in Media- & Information Design at Luca School of Arts in
                 Brussels. I am
                 very
@@ -35,5 +35,12 @@ const activeName = ref('1')
 <style>
 .container {
     max-width: 70vw;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 </style>
