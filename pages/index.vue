@@ -107,7 +107,7 @@ onMounted(async () => {
         <div class="absolute inset-0 bg-black opacity-30"></div>
 
         <!-- Content above the background -->
-        <div class="relative z-10 pr-5">
+        <div class="relative z-10 pr-5 pt-6">
           <Drawer />
         </div>
 

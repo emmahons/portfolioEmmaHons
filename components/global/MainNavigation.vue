@@ -15,12 +15,12 @@
     </el-collapse>
 
     <div class="links-container nuxtlink ">
-      <NuxtLink to="about" :active-class='"active"'>
+      <NuxtLink to="/about" :active-class='"active"'>
         About
       </NuxtLink>
     </div>
     <div class="links-container nuxtlink ">
-      <NuxtLink to="contact" :active-class='"active"'>
+      <NuxtLink to="/contact" :active-class='"active"'>
         Contact
       </NuxtLink>
     </div>
@@ -88,7 +88,12 @@ onMounted(() => {
   font-family: "libre baskerville";
 }
 
-.active{
+:deep(.nuxtlink button:hover) {
+  color: white !important;
+  font-family: 'libre baskerville';
+}
+
+.active {
   color: white !important;
   font-family: "libre baskerville";
 }
