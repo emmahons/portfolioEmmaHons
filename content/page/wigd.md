@@ -13,7 +13,8 @@ imagegallery:
   galleryImages:
     - /img/affiches_finaal_juni1.png
     - /img/affiches_finaal_juni2.png
-imagezgallery: /img/post_finaal.png
+    - /img/post_finaal2.png
+    - /img/post_finaal.png
 thumbnail: /img/affiches_finaal_juni1.png
 date: 2024-10-20T16:14:52.143Z
 numbernavigation: 5
@@ -22,6 +23,6 @@ promoted: "0"
 included: true
 ---
 ::div{class="italic"}
-For this project, a quote from iconic designer Paul Smith was taken about good design. From here, a poster, bookspread, instragram post and animated video were created. Of each designs exists a version with image and one without. These were created in a similar style so as to have a coherent brand. 
+For this project, a quote from iconic designer Paul Smith was taken about good design. From here, a poster, bookspread, instragram post and animated video were created. Of each design exists a version with image and one without. These were created in a similar style so as to have a coherent brand. 
 ::
 
