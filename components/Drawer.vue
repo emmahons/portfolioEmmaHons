@@ -1,7 +1,7 @@
 <template>
   <div class="flex animate-fade animate-once animate-delay-[500ms]">
     <div class="flex-auto w-1 pt-3"></div>
-    <div class="flex-row pt-5 justify-end">
+    <div class="flex-row justify-end">
       <button style="margin-left: 16px" @click="drawer = true"
         class="bg-white dark:bg-slate-900 bg-opacity-20 hover:bg-opacity-90 dark:bg-opacity-10">
         <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
