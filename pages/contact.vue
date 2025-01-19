@@ -28,7 +28,7 @@
             +32123456789 <br>
             email.adres@gmail.com
         </p>
-        <p class="pt-6"> or you can leave a lessage here </p>
+        <p class="pt-6"> or you can leave a message here </p>
         <el-input v-model="input" style="width: 240px" placeholder="message ..." />
     </div>
 </template>
