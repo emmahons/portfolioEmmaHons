@@ -74,10 +74,6 @@ onMounted(() => {
   font-family: "libre baskerville";
 }
 
-.light-mode a:target {
-  text-decoration: underline;
-}
-
 .gray-mode a:hover {
   color: #251603ef;
   font-family: "libre baskerville";
@@ -90,13 +86,24 @@ onMounted(() => {
 
 :deep(.nuxtlink button:hover) {
   color: white !important;
-  font-family: 'libre baskerville';
-}
-
-.active {
-  color: white !important;
   font-family: "libre baskerville";
 }
+
+.light-mode .active {
+  color: #fcfcfc !important;
+  font-family: "libre baskerville";
+}
+
+.gray-mode .active {
+  color: #251603ef !important;
+  font-family: "libre baskerville";
+}
+
+.dark-mode .active {
+  color: #20211e !important;
+  font-family: "libre baskerville";
+}
+
 
 
 .accordeon {
