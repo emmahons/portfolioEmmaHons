@@ -8,7 +8,7 @@
             <li class="leading-7 nuxtlink">{{ post.title }}</li>
           </NuxtLink>
         </ul>
-        <NuxtLink to="overview" class=" nuxtlink accordion italic">
+        <NuxtLink to="/overview" class=" nuxtlink accordion italic">
           see all work
         </NuxtLink>
       </el-collapse-item>
