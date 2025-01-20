@@ -25,6 +25,7 @@
             <li v-for="(item, index) in data.tags" :key="index" class="pt-2 text-xs opacity-50 hover:opacity-100">
               <NuxtLink :to="`/tags/${item}`">{{ item }}</NuxtLink>
             </li>
+            <el-backtop :right="200" :bottom="100" class="" /> <!-- back to top element -->
           </article>
         </div>
       </div>
@@ -51,6 +52,12 @@ defineProps(['data', 'formatDate']);
 </script>
 
 <style>
+.el-backtop {
+  color: rgb(56, 55, 55);
+  background-color: transparent;
+  box-shadow: none;
+}
+
 .header {
     padding: 20px;
     display: flex;

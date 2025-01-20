@@ -52,7 +52,7 @@
       <div class="container  mx-auto p-4 animate-fade animate-once animate-delay-[500ms]">
         <div class=" gap-4 mt-6">
           <h1 class="text-3xl md:text-3xl lg:text-6xl lg:mb-3 font-bold">{{ data.title }}</h1>
-          <div class=" grid grid-cols-2  md:grid-cols-1 lg:grid-cols-2 space-x-4 pt-6">
+          <div class=" grid grid-cols-2  md:grid-cols-1 lg:grid-cols-2 space-x-6 pt-6">
             <div v-if="data.imagegallery && data.imagegallery.showgallery == true" class="">
               <ImageGallery />
             </div>
@@ -79,6 +79,7 @@
             <li v-for="(item, index) in data.tags" :key="index" class="pt-2 text-xs opacity-50 hover:opacity-100">
               <NuxtLink :to="`/tags/${item}`">{{ item }}</NuxtLink> <!-- Load NuxtLink -->
             </li>
+            <el-backtop :right="200" :bottom="100" class="" /> <!-- back to top element -->
           </article>
         </div>
       </div>
@@ -124,10 +125,16 @@ defineProps(['data', 'formatDate']);
   }
 }
 
+.el-backtop {
+  color: rgb(56, 55, 55);
+  background-color: transparent;
+  box-shadow: none;
+}
+
 .header {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 </style>

@@ -133,10 +133,15 @@ defineProps(['data', 'formatDate']);
 }
 
 .header {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.el-backtop {
+  color: rgb(56, 55, 55);
+  background-color: transparent;
+  box-shadow: none;
+}
 </style>
